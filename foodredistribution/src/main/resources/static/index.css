@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Playfair+Display:wght@700&display=swap');
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  font-family:'Montserrat',sans-serif;
+}
+
+/* NAVBAR */
+nav{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:20px 40px;
+  border-bottom:2px solid black;
+}
+
+nav h1{
+  letter-spacing:4px;
+}
+
+nav a{
+  margin-left:20px;
+  text-decoration:none;
+  color:black;
+  font-weight:600;
+}
+
+/* HERO */
+.hero{
+  display:flex;
+  background:#cdeff1;
+  padding:80px;
+  align-items:center;
+}
+
+.hero-text{
+  width:50%;
+}
+
+.hero-text h2{
+  font-family:'Playfair Display',serif;
+  font-size:60px;
+  border:5px solid black;
+  padding:20px;
+}
+
+.hero-img{
+  width:50%;
+  height:300px;
+  background-image:url("https://images.unsplash.com/photo-1542838132-92c53300491e");
+  background-size:cover;
+  background-position:center;
+}
+
+/* SECTIONS */
+.section{
+  display:flex;
+  min-height:350px;
+}
+
+.reverse{
+  flex-direction:row-reverse;
+}
+
+.section-img{
+  width:50%;
+  background-size:cover;
+  background-position:center;
+}
+
+.img1{
+  background-image:url("https://images.unsplash.com/photo-1504674900247-0877df9cc836");
+}
+
+.img2{
+  background-image:url("https://images.unsplash.com/photo-1600891964599-f61ba0e24092");
+}
+
+.img3{
+  background-image:url("https://images.unsplash.com/photo-1506089676908-3592f7389d4d");
+}
+
+.section-text{
+  width:50%;
+  padding:80px;
+}
+
+.section-text h2{
+  font-size:40px;
+  margin-bottom:20px;
+}
+
+.section-text p{
+  font-size:18px;
+  line-height:1.6;
+}
+
+/* BUTTON */
+.btn{
+  display:inline-block;
+  margin-top:20px;
+  padding:12px 25px;
+  border:2px solid black;
+  text-decoration:none;
+  color:black;
+  font-weight:bold;
+}
+
+/* STATS */
+.stats{
+  display:flex;
+  justify-content:space-around;
+  padding:60px;
+  background:#f3f3f3;
+}
+
+.stat h3{
+  font-size:50px;
+}
+
+/* FOOTER */
+footer{
+  padding:50px;
+  text-align:center;
+  border-top:2px solid black;
+}

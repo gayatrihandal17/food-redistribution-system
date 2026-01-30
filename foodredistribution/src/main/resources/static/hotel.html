@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="hotel.css">
+</head>
+<body>
+
+<nav>
+<div>Food Share</div>
+<div>
+<a href="index.html">Index</a>
+<a href="ngo.html">NGO</a>
+<a href="admin.html">Admin</a>
+<a href="login.html">Logout</a>
+</div>
+</nav>
+
+<div class="hero">Hotel Surplus Food</div>
+
+<div class="info">
+  List your surplus food so NGOs can collect it before expiry.
+</div>
+
+<div class="card">
+<h3>Add Food </h3>
+<input id="hotel" placeholder="Hotel Name">
+<input id="food" placeholder="Food Name">
+<input id="qty" type="number" placeholder="Quantity">
+<input id="expiry" type="datetime-local">
+<button onclick="addFood()">Add Food</button>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
